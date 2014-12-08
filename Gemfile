@@ -27,6 +27,7 @@ gem 'bcrypt', '3.1.7'
 
 group :development, :test do
   gem 'pry-byebug'
+  gem 'binding_of_caller'
   gem 'better_errors'
   gem 'spring'
 end
